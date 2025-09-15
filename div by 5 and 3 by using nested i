@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a = ");
+    scanf("%d", &a);
+
+    if (a%5==0)  
+    {
+        if (a%3==0)
+            {
+             printf("div by both 3 and 5");
+            }
+        else
+            {
+             printf("not div by 3 and div by 5");
+            }
+    }
+    else  
+    {
+        printf("div by 3 and not by 5");
+    }
+
+    return 0;
+}
