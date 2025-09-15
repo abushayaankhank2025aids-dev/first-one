@@ -7,18 +7,30 @@ int main()
 
     if (a%5==0)  
     {
-        if (a%3==0)
-            {
-             printf("div by both 3 and 5");
-            }
-        else
-            {
-             printf("not div by 3 and div by 5");
-            }
+      if(a%15==0)
+         {
+         printf("div by 5 and  by 15 and 3");
+         }
+      else
+         {
+         printf("div by 5 and not by 15 & 3");
+         }
     }
+    else if (a%3==0)
+    {   
+      if(a%15==0)
+         {
+         printf("div by 3 and not by 15");
+         }
+         else
+         {
+         printf("div by 3 and not by 15 & 5");
+         }
+    }
+    
     else  
     {
-        printf("div by 3 and not by 5");
+        printf(" not div by 3 and not by 5");
     }
 
     return 0;
