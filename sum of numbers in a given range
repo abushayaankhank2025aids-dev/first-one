@@ -2,10 +2,10 @@
 int main()
 {
 int st,end;
-int first=end*(end-1)/2;
+int first=(end*(end-1))/2;
 int second=st-1;
-int third=second*(second-1)/2;
-int final=first-third;
+int third=(second*(second-1))/2;
+int final=second;
 printf("enter the 1st number=");
 scanf("%d",&st);
 printf("enter the 2st number=");
