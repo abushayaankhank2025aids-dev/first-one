@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+int st,end;
+int first=end*(end-1)/2;
+int second=st-1;
+int third=second*(second-1)/2;
+int final=first-third;
+printf("enter the 1st number=");
+scanf("%d",&st);
+printf("enter the 2st number=");
+scanf("%d",&end);
+printf("sum of the range=%d"final);
+return 0;
+}
+
+
+
+
+
+
+
+
