@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+
+float f,i,j,k,tot;
+printf("enter the foot value to be converted to cm",f);
+scanf("%f",&f);
+printf("|nenter the inch value to be converted to cm",i);
+scanf("%f",&i);
+j=12*2.54*f;
+k=i*2.54;
+tot=j+k;
+printf("the tot value is: %f",tot);
+}
